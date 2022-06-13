@@ -36,15 +36,17 @@ inquirer.prompt(
             validate: (value)=>{ if(value){return true}else{return 'Please enter a value'}},
         },
         {
+            //list of licenses
             type: 'list',
             message:'what license did you use?',
             name:'license',
+            choices: ['The MIT License', 'The GPL License', 'Apache License', 'GNU License', 'N/A']
             validate: (value)=>{ if(value){return true}else{return 'Please enter a value'}},
         },
         {
             type: 'input',
-            message:'How do you use your app?',
-            name:'utility',
+            message:'Github username?',
+            name:'git',
             validate: (value)=>{ if(value){return true}else{return 'Please enter a value'}},
         },
 
