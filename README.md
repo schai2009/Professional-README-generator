@@ -1,7 +1,7 @@
-# README Generator
+# README
   
   ## Description 
-  This is an application that runs with Node.js that dynamically generates professional README files based    on the inputs about the user's project
+  npm i
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,9 +11,9 @@
   * [Questions](#questions)
   
   ## Installation 
-  First, install all the npm packages with npm install command. (including inquirer)
+  node
   ## Usage 
-  What user run node index.js on command line, the application uses the inquirer package to prompt a series of questions regarding the user's project. After the user completes the questions, the application will generate a README.md file with all the inputs from the user.
+  node
   ## License 
   This project is license under UCB
   ## Contributing 
